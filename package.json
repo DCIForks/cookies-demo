@@ -1,0 +1,20 @@
+{
+  "name": "cookie-parser",
+  "version": "1.0.0",
+  "description": "Demo of cross-site cookies",
+  "main": "cookie-source/index.js",
+  "scripts": {
+    "start": "npm run start:source && npm run start:local",
+    "start:source": "cd cookie-source && nodemon index &",
+    "start:sink": "cd cookie-sink && nodemon index",
+    "start:local": "cd local-sink && nodemon index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "local-sink",
+  "version": "1.0.0",
+  "description": "Demo of a site which requests an image from a local HTTPS site, which sets cookies with the options {sameSite: 'none', secure: true}.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3"
+  }
+}

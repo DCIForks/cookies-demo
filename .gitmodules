@@ -1,0 +1,7 @@
+[submodule "cookie-source"]
+	path = cookie-source
+	url = git@github.com:DCIForks/cookie-source.git
+[submodule "cookie-sink"]
+	path = cookie-sink
+	url = git@github.com:DCIForks/cookie-sink.git
+his
